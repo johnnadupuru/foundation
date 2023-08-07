@@ -5,7 +5,7 @@ const Hospital = () => {
   return (
     <section className="px-3 lg:px-[50px] mt-3">
       <div>
-        <div className=" lg:h-[650px] bg-cover bg-center bg-[url(hospital/hospitalbg.jpg)] rounded-xl">
+        <div className=" lg:h-[650px] bg-cover bg-center rounded-xl" style={{backgroundImage:"url(hospital/hospitalbg.jpg)"}}>
           <div className="bg-black/80 h-full left-0 right-0 top-0 bottom-0 rounded-xl p-5">
             <div className=" ">
               <h1 className="text-white font-bold md:text-5xl text-3xl">Hospital With Beds And Basic Facilities</h1>

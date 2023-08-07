@@ -3,7 +3,7 @@ const Payments = () => {
   return (
     <div className="py-5 pt-12">
         <section className="px-3 pb-3 lg:px-[30px] mt-3">
-            <div className=" lg:h-[650px] bg-cover bg-center bg-[url(payments/payment2.jpg)] rounded-xl">
+            <div className=" lg:h-[650px] bg-cover bg-center rounded-xl" style={{backgroundImage:"url(payments/paymentbg.jpg)"}}>
                 <div className="bg-black/80 h-full left-0 right-0 top-0 bottom-0 rounded-xl p-5">
                     <div className=" text-center">
                         <h1 className="text-white font-bold md:text-5xl text-3xl">Being a part of with us</h1>
