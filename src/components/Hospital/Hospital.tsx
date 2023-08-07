@@ -8,7 +8,7 @@ const Hospital = () => {
         <div className=" lg:h-[650px] bg-cover bg-center rounded-xl" style={{backgroundImage:"url(hospital/hospitalbg.jpg)"}}>
           <div className="bg-black/80 h-full left-0 right-0 top-0 bottom-0 rounded-xl p-5">
             <div className=" ">
-              <h1 className="text-white font-bold md:text-5xl text-3xl">Hospital With Beds And Basic Facilities</h1>
+              <h1 className="text-white md:text-5xl text-3xl font-lobster">Hospital With Beds And Basic Facilities</h1>
             </div>
             <div className="flex flex-col lg:flex-row mt-3">
               <div className="mr-0 lg:w-[50%] order-2">

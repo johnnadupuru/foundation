@@ -4,7 +4,7 @@ import {BiSolidPhoneCall,BiLogoWhatsappSquare,BiLogoInstagramAlt,BiLogoTwitter,B
 const Footer = () => {
   return (
     <div className="bg-orange-600">
-        <h1 className="text-white text-3xl font-bold text-center underline decoration-2">Follow Us</h1>
+        <h1 className="text-white text-3xl font-lobster text-center underline decoration-2">Follow Us</h1>
         <div className="bg-orange-600 p-2 flex lg:flex-row flex-col justify-around">
             <div className="flex lg:justify-center lg:items-center mb-5 lg:mb-0">
                 <div className="flex">
