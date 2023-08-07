@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom"
 import {useState} from "react"
 import {RxCross1} from "react-icons/rx"
 import {AiOutlineMenu} from "react-icons/ai"
-import Minimenu from "../Minimenu/Minimenu"
+
 
 const Navbar = () => {
   const[isOpen,setOpen]=useState(false)
@@ -36,7 +36,19 @@ const Navbar = () => {
             <button onClick={()=>setOpen(prev=>!prev)} className="bg-orange-600 rounded-lg shadow-xl text-white text-4xl font-bold"><RxCross1/></button>
           </div>:<div className=""><button onClick={()=>setOpen(prev=>!prev)} className="bg-orange-600 rounded-lg text-white shadow-xl p-1 text-3xl font-bold"><AiOutlineMenu/></button></div>}
         </div>
-      {<Minimenu isOpen={isOpen} />}
+        <div className={`${isOpen ? "-left-20 top-11" : "left-20"} absolute w-[100vh] rounded-b-xl h-[300px] duration-1000 bg-orange-600 shadow-xl`}>
+            <ul>
+                <li className="text-white text-2xl mb-2 p-5 hover:bg-orange-800">
+                    <NavLink to="/">Home</NavLink>
+                </li>
+                <li className="text-white text-2xl mb-2 p-5 hover:bg-orange-800">
+                    <NavLink to="/about">About Us</NavLink>
+                </li>
+                <li className="text-white text-2xl mb-2 p-5 hover:bg-orange-800">
+                    <NavLink to="/payments">Payment</NavLink>
+                </li>
+            </ul>
+        </div>
       </div>
     </div>
   )
